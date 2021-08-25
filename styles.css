@@ -1,0 +1,364 @@
+/*-------BISMILLAHIR RAHMANIR RAHIM-------*/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+/*-------FOR ALL-------*/
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: green;
+    transition: 0.3s;
+}
+
+/*-------NAVIGATION BAR-------*/
+.navBar{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.navBarWrapper ul{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-top: 3px solid #c70039;
+    border-radius: 10px 10px 0px 0px;
+}
+.navBarWrapper ul a{
+    flex: auto;
+    list-style: none;
+}
+.navBarWrapper a{
+    background-color: black;
+}
+.navBarWrapper ul a li i{
+    color: #c70039;
+    padding: 10px;
+}
+
+.active{
+    background: #c70039 !important;
+}
+.active i{
+    color: black !important;
+}
+/*-------MAIN BG PART-------*/
+#mainPic {
+    background-image: url("images/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 80vh;
+    /* width: 100vw; */
+}
+
+.mainLine h1 {
+    color: #c70039;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 68vh;
+    font-family: "Sacramento", cursive;
+    font-weight: 900;
+}
+
+.mainLine h1 span {
+    color: #f5f5f5;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 68vh;
+    font-family: "Sacramento", cursive;
+    font-weight: 900;
+}
+
+/*-------TYPO PART-------*/
+.typo {
+    background-color: black;
+}
+
+.typed h1 {
+    text-align: center;
+}
+
+.typed h1 {
+    color: #f5f5f5;
+}
+
+.typed span {
+    color: #c70039;
+}
+
+/* ----------ABOUT ME---------- */
+.aboutMe {
+    background-color: black;
+    padding-top: 100px;
+    padding-left: 10px;
+}
+
+.aboutMe h3 {
+    color: white;
+    font-size: 25px;
+}
+
+.aboutMe h3 span {
+    color: #c70039;
+    font-size: 25px;
+}
+
+.aboutMe h2 {
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.aboutMe h2 span {
+    color: #c70039;
+    font-size: 30px;
+}
+
+.aboutMe p {
+    color: white;
+}
+
+.cvBtn {
+    text-align: center;
+    padding: 20px;
+}
+
+.cvBtn a {
+    text-decoration: none;
+    color: white;
+    background-color: #c70039;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* ----------ABOUT ME---------- */
+.social {
+    background-color: black;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.social ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.social ul li {
+    list-style: none;
+    margin: 10px;
+    margin-top: 0;
+}
+
+.social ul li a i {
+    color: #c70039;
+    border: 3px solid #c70039;
+    border-radius: 20px;
+    padding: 5px;
+}
+/*=============SERVICE================*/
+/* ----------SERVICE BOX---------- */
+
+.myService{
+    background-color: black;
+    padding-bottom:20px;
+}
+.myService h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    letter-spacing: 0em;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.myService h1 span{
+    font-size: 30px;
+    letter-spacing: 0;
+    color: #c70039;
+}
+.serviceBox{
+    background: #191919;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+.serviceBox img{
+    background: #c70039;
+    border-radius: 12px;
+    margin: 20px;
+    padding: 3px;
+    margin-bottom: 20px;
+}
+.serviceBox h2{
+    color: aliceblue;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.serviceBox p{
+    padding: 0% 10%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    color: aliceblue;
+    text-align:justify;
+}
+/* ----------SERVICE BOX---------- */
+.mySkills{
+    background-color: black;
+    padding-bottom: 50px;
+    
+}
+.mySkills h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    letter-spacing: 0em;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.mySkills h1 span{
+    font-size: 30px;
+    letter-spacing: 0;
+    color: #c70039;
+}
+.mySkills li{
+    padding: 20px;
+    list-style: none;
+}
+.mySkills li h3{
+    color: aliceblue;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.bar{
+    background: #101010;
+    display: block;
+    height;10px;
+    border: 3px solid #101010;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.bar span{
+    height: 12px;
+    float: left;
+    background:#c70039;
+    border-radius: 10px
+}
+.html{
+    width: 90%;
+    animation: html 2s;
+}
+.css{
+    width: 75%;
+    animation: css 2s;
+}
+.jquery{
+    width: 60%;
+    animation: jquery 2s;
+}
+.js{
+    width: 10%;
+    animation: js 2s;
+}
+.seo{
+    width: 80%;
+    animation: seo 2s;
+}
+.photoshop{
+    width: 65%;
+    animation: photoshop 2s;
+}
+.photography{
+    width: 85%;
+    animation: photography 2s;
+}
+.writting{
+    width: 95%;
+    animation: writting 2s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes jquery{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes js{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 10%;
+    }
+}
+@keyframes seo{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes photoshop{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+@keyframes photography{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes writting{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+.mySkills h4{
+    text-align: center;
+    color: aliceblue;
+}
+.mySkills h4 span{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+
+
+
+
+
